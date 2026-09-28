@@ -127,7 +127,7 @@ export default function Portfolio() {
             {/* Project 2: Retail Sales EDA (Python) */}
             <div className="group relative bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 hover:bg-zinc-800/50 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between">
                <div className="absolute top-8 right-8 flex gap-3 text-zinc-500 group-hover:text-emerald-400 transition-colors">
-                <a href="#" target="_blank" rel="noreferrer" title="View Python Code / GitHub">
+                <a href="https://github.com/yuvraj-singh-analytics/retail-sales-eda">
                   <ExternalLink size={20} />
                 </a>
               </div>
@@ -135,8 +135,8 @@ export default function Portfolio() {
                 <div className="w-12 h-12 rounded-lg bg-zinc-800/80 flex items-center justify-center text-xl font-bold text-emerald-400 border border-zinc-700/50">🐍</div>
                 <h3 className="text-xl font-medium text-zinc-100 group-hover:text-emerald-300 transition-colors">Retail Sales Exploratory Data Analysis</h3>
                 <p className="text-sm leading-relaxed text-zinc-400">
-                  Conducted univariate and bivariate analysis, correlation metrics, and outlier investigation on retail transactions. Treated missing values and formatted data distributions using Pandas, NumPy, and Seaborn.
-                </p>
+                  Executed end-to-end Exploratory Data Analysis (EDA) on 8,500+ retail transactions utilizing Python (Pandas, NumPy, Seaborn, Matplotlib) to evaluate sales performance and profit drivers. Engineered robust missing value treatments using group-based imputation, investigated feature correlations, and optimized data distributions to ensure high analytical integrity.
+</p>
                 <div className="flex gap-2 flex-wrap pt-2">
                   <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">Python</span>
                   <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">Pandas & NumPy</span>
