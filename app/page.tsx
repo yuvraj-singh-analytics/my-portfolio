@@ -112,7 +112,7 @@ export default function Portfolio() {
                 <div className="w-12 h-12 rounded-lg bg-zinc-800/80 flex items-center justify-center text-xl font-bold text-emerald-400 border border-zinc-700/50">📊</div>
                 <h3 className="text-xl font-medium text-zinc-100 group-hover:text-emerald-300 transition-colors">Global Retail Sales Dashboard</h3>
                 <p className="text-sm leading-relaxed text-zinc-400">
-                  Performed trend and comparative analysis to identify high-performing regions, products, and categories. Designed interactive Tableau charts and filters for efficient sales exploration.
+                  End-to-end business intelligence dashboard analyzing global sales data to evaluate regional profitability and top-performing product categories. Features interactive multi-layered filtering, time-series trend analysis, comparative bar charts, and KPI tracking built with Tableau calculated fields and dashboard actions.
                 </p>
                 <div className="flex gap-2 flex-wrap pt-2">
                   <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">Tableau</span>
@@ -159,7 +159,7 @@ export default function Portfolio() {
                 <div className="w-12 h-12 rounded-lg bg-zinc-800/80 flex items-center justify-center text-xl font-bold text-emerald-400 border border-zinc-700/50">📈</div>
                 <h3 className="text-xl font-medium text-zinc-100 group-hover:text-emerald-300 transition-colors">Power BI Business Intelligence Dashboard</h3>
                 <p className="text-sm leading-relaxed text-zinc-400">
-                  Designed an interactive Power BI report to track business metrics, slice multi-dimensional data, and visualize corporate performance indicators with custom DAX measures.
+                  Interactive reporting solution designed to aggregate, model, and visualize complex corporate performance metrics. Features include advanced Star Schema data modeling, custom DAX measures for YTD growth and profit margins, executive KPI scorecards, and multi-dimensional drill-downs using Power BI Desktop, DAX, and Power Query.
                 </p>
                 <div className="flex gap-2 flex-wrap pt-2">
                   <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">Power BI</span>
