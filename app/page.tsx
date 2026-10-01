@@ -71,7 +71,7 @@ export default function Portfolio() {
                 Turning data into <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">actionable insights.</span>
               </h1>
               <p className="text-lg md:text-xl text-zinc-400 font-light leading-relaxed max-w-lg">
-                A hands-on Data Analyst who transforms raw datasets into clear narratives using SQL, Python, and Power BI.
+                A hands-on Data Analyst who transforms raw datasets into clear narratives using SQL, Python, Power BI, and Advanced Excel.
               </p>
             </div>
             
@@ -101,6 +101,7 @@ export default function Portfolio() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
             {/* Project 1: Global Retail Sales Dashboard (Tableau) */}
             <div className="group relative bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 hover:bg-zinc-800/50 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between">
               <div className="absolute top-8 right-8 flex gap-3 text-zinc-500 group-hover:text-emerald-400 transition-colors">
@@ -127,7 +128,7 @@ export default function Portfolio() {
             {/* Project 2: Retail Sales EDA (Python) */}
             <div className="group relative bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 hover:bg-zinc-800/50 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between">
                <div className="absolute top-8 right-8 flex gap-3 text-zinc-500 group-hover:text-emerald-400 transition-colors">
-                <a href="https://github.com/yuvraj-singh-analytics/retail-sales-eda">
+                <a href="https://github.com/yuvraj-singh-analytics/retail-sales-eda" target="_blank" rel="noreferrer" title="View Python Repository">
                   <ExternalLink size={20} />
                 </a>
               </div>
@@ -136,7 +137,7 @@ export default function Portfolio() {
                 <h3 className="text-xl font-medium text-zinc-100 group-hover:text-emerald-300 transition-colors">Retail Sales Exploratory Data Analysis</h3>
                 <p className="text-sm leading-relaxed text-zinc-400">
                   Executed end-to-end Exploratory Data Analysis (EDA) on 8,500+ retail transactions utilizing Python (Pandas, NumPy, Seaborn, Matplotlib) to evaluate sales performance and profit drivers. Engineered robust missing value treatments using group-based imputation, investigated feature correlations, and optimized data distributions to ensure high analytical integrity.
-</p>
+                </p>
                 <div className="flex gap-2 flex-wrap pt-2">
                   <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">Python</span>
                   <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">Pandas & NumPy</span>
@@ -169,6 +170,30 @@ export default function Portfolio() {
               </div>
               <div className="pt-8 flex items-center gap-4 text-xs font-mono text-zinc-500">
                 <span>Interactive BI Reporting</span>
+              </div>
+            </div>
+
+            {/* Project 4: Retail Sales & Operations Dashboard (Advanced Excel) */}
+            <div className="group relative bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 hover:bg-zinc-800/50 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between">
+              <div className="absolute top-8 right-8 flex gap-3 text-zinc-500 group-hover:text-emerald-400 transition-colors">
+                <a href="https://github.com/yuvraj-singh-analytics/retail-sales-excel-analysis" target="_blank" rel="noreferrer" title="View Excel Project Repository on GitHub">
+                  <ExternalLink size={20} />
+                </a>
+              </div>
+              <div className="space-y-4">
+                <div className="w-12 h-12 rounded-lg bg-zinc-800/80 flex items-center justify-center text-xl font-bold text-emerald-400 border border-zinc-700/50">📋</div>
+                <h3 className="text-xl font-medium text-zinc-100 group-hover:text-emerald-300 transition-colors">Retail Sales & Operations Dashboard</h3>
+                <p className="text-sm leading-relaxed text-zinc-400">
+                  Engineered an end-to-end retail analytics model analyzing 9,900+ transactions. Built dynamic Pivot Tables, complex lookup formulas, and executive KPI dashboards to track category profitability, regional sales distribution, and shipping logistics efficiency.
+                </p>
+                <div className="flex gap-2 flex-wrap pt-2">
+                  <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">Advanced Excel</span>
+                  <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">Pivot Tables</span>
+                  <span className="px-3 py-1 bg-zinc-800/80 rounded-md text-xs text-zinc-300 border border-zinc-700/40">KPI Dashboards</span>
+                </div>
+              </div>
+              <div className="pt-8 flex items-center gap-4 text-xs font-mono text-zinc-500">
+                <span>Spreadsheet Modeling & Analytics</span>
               </div>
             </div>
 
@@ -239,6 +264,7 @@ export default function Portfolio() {
               <h3 className="text-zinc-200 border-b border-zinc-800 pb-2 font-medium">Visualization</h3>
               <ul className="space-y-2 text-sm text-zinc-400">
                 <li>Power BI</li>
+                <li>Tableau</li>
                 <li>Matplotlib</li>
                 <li>Seaborn</li>
                 <li>Advanced Excel</li>
